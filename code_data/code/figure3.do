@@ -11,7 +11,7 @@ format month_m %tm
 * tsset
 tsset month_m
 
-* 创建你的日历月份虚拟变量 (你之前可能已经做过了)
+* construct date
 gen cal_month = month(month)
 
 * run newey 
