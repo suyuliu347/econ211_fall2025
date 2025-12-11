@@ -4,7 +4,7 @@ This repository contains the code and data about the paper "The Impact of Moneta
 
 ## Paper webpage
 
-The paper will be available at: 
+The paper will be available at: https://github.com/suyuliu347/econ211_fall2025/tree/main/research_paper
 
 ## Raw data
 
