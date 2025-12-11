@@ -19,11 +19,11 @@ The raw data used by the code to produce the results in the paper are stored as 
 + `mps_shocks.csv` – high-frequency Monetary policy shocks developed by [Bauer and Swanson (2023)](https://www.journals.uchicago.edu/doi/10.1086/723574)
     + Source: [Federal Reserve Bank of San Francisco](https://www.frbsf.org/research-and-insights/data-and-indicators/monetary-policy-surprises/)
 + `UNRATE.csv` – US unemployment, 2000–2023
-   + Source: BLS (2024) - [UNRATE](https://fred.stlouisfed.org/series/UNRATE)  
+   + Source: BLS - [UNRATE](https://fred.stlouisfed.org/series/UNRATE)  
 + `JTSJOL.csv`  -  US job openings, 2000–2023
-   + Source: BLS (2024) - [JTSJOL](https://fred.stlouisfed.org/series/JTSJOL)
+   + Source: BLS - [JTSJOL](https://fred.stlouisfed.org/series/JTSJOL)
 + `CIVPART.csv`- US labor force participation rate, 2000–2023
-   + Source: BLS (2024) - [CIVPART](https://fred.stlouisfed.org/series/CIVPART#)
+   + Source: BLS - [CIVPART](https://fred.stlouisfed.org/series/CIVPART#)
 
 
 ## Code
