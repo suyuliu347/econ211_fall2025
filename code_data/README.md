@@ -8,35 +8,24 @@ The paper will be available at: .
 
 ## Raw data
 
-The raw data used by the code to produce the results in the paper are stored as CSV or Parquet files in the raw folder.
+The raw data used by the code to produce the results in the paper are stored as CSV or TXT files in the raw folder.
 
 oli_demand_daily.parquet – Daily OLI buyer-demand counts by occupation and country, 2016–2023
-
-Source: Online Labor Observatory (2024)
+Source: [Online Labor Observatory (2024)](https://figshare.com/articles/dataset/Online_Labour_Index_Measuring_the_Online_Gig_Economy_for_Policy_and_Research/3761562?file=48931042)
 
 oli_supply_daily.parquet – Daily OLI worker-supply counts by occupation and country, 2016–2023
+Source: [Online Labor Observatory (2024)](https://figshare.com/articles/dataset/Online_Labour_Index_Measuring_the_Online_Gig_Economy_for_Policy_and_Research/3761562?file=48931072)
 
-Source: Online Labor Observatory (2024)
+brw_shocks.csv – High-frequency monetary policy shocks developed by Bu, Rogers, and Wu (2021) 
+Source: [Bu, Rogers, and Wu (2021)](https://drive.google.com/file/d/1hYeeyY9okFhQz6yXmWdzQc7oaJJKYmVg/view)
 
-occupation_groups.csv – Mapping of OLI occupational categories
+hfi_shocks.csv – high-frequency Monetary policy shocks developed by [Bauer and Swanson (2023)](https://www.journals.uchicago.edu/doi/10.1086/723574)
+Source: [Federal Reserve Bank of San Francisco](https://www.frbsf.org/research-and-insights/data-and-indicators/monetary-policy-surprises/)
 
-Source: Kässi & Lehdonvirta (2018)
+macro_labor_indicators.csv – US unemployment, job openings, participation rate, 2000–2023
+Source: BLS (2024)- [UNRATE](https://fred.stlouisfed.org/series/UNRATE) [JTSJOL](https://fred.stlouisfed.org/series/JTSJOL) [CIVPART](https://fred.stlouisfed.org/series/CIVPART#)
 
-brw_fomc_shocks.csv – High-frequency monetary policy shocks around FOMC announcements, 1990–2024
 
-Source: Bauer, Roberts & Wright (2024)
-
-hfi_shocks.csv – Monetary policy shocks from high-frequency identification
-
-Source: Nakamura & Steinsson (2018)
-
-macro_labor_indicators.csv – US unemployment, job openings, participation rate, employment levels, 2000–2023
-
-Source: BLS (2024)
-
-fomc_dates.csv – FOMC announcement dates
-
-Source: Federal Reserve Board (2024)
 
 ## Code
 
