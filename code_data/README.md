@@ -1,6 +1,6 @@
-# The Impact of Monetary Policy Shocks on Online Labor Markets – Code and Data
+# The Effects of Monetary Policy Shocks on the Online Labor Market – Code and Data
 
-This repository contains the code and data about the paper "The Impact of Monetary Policy Shocks on Online Labor Markets", written by Suyu Liu.
+This repository contains the code and data about the project paper "The Effects of Monetary Policy Shocks on the Online Labor Market", written by Suyu Liu.
 
 ## Paper webpage
 
