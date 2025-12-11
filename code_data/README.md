@@ -8,23 +8,22 @@ The paper will be available at: .
 
 ## Raw data
 
-The raw data used by the code to produce the results in the paper are stored as CSV or TXT files in the raw folder.
+The raw data used by the code to produce the results in the paper are stored as CSV or txt files in the `raw` folder.
 
-oli_demand_daily.parquet – Daily OLI buyer-demand counts by occupation and country, 2016–2023
-Source: [Online Labor Observatory (2024)](https://figshare.com/articles/dataset/Online_Labour_Index_Measuring_the_Online_Gig_Economy_for_Policy_and_Research/3761562?file=48931042)
-
-oli_supply_daily.parquet – Daily OLI worker-supply counts by occupation and country, 2016–2023
-Source: [Online Labor Observatory (2024)](https://figshare.com/articles/dataset/Online_Labour_Index_Measuring_the_Online_Gig_Economy_for_Policy_and_Research/3761562?file=48931072)
-
-brw_shocks.csv – High-frequency monetary policy shocks developed by Bu, Rogers, and Wu (2021) 
-Source: [Bu, Rogers, and Wu (2021)](https://drive.google.com/file/d/1hYeeyY9okFhQz6yXmWdzQc7oaJJKYmVg/view)
-
-hfi_shocks.csv – high-frequency Monetary policy shocks developed by [Bauer and Swanson (2023)](https://www.journals.uchicago.edu/doi/10.1086/723574)
-Source: [Federal Reserve Bank of San Francisco](https://www.frbsf.org/research-and-insights/data-and-indicators/monetary-policy-surprises/)
-
-macro_labor_indicators.csv – US unemployment, job openings, participation rate, 2000–2023
-Source: BLS (2024)- [UNRATE](https://fred.stlouisfed.org/series/UNRATE) [JTSJOL](https://fred.stlouisfed.org/series/JTSJOL) [CIVPART](https://fred.stlouisfed.org/series/CIVPART#)
-
++ `oli_demand_daily.txt.zip` – Daily OLI buyer-demand counts by occupation and country, 2016–2023
+    + Source: [Online Labor Observatory (2024)](https://figshare.com/articles/dataset/Online_Labour_Index_Measuring_the_Online_Gig_Economy_for_Policy_and_Research/3761562?file=48931042)
++ `oli_supply_daily.txt` – Daily OLI worker-supply counts by occupation and country, 2016–2023
+    + Source: [Online Labor Observatory (2024)](https://figshare.com/articles/dataset/Online_Labour_Index_Measuring_the_Online_Gig_Economy_for_Policy_and_Research/3761562?file=48931072)
++ `brw_shocks.csv` – High-frequency monetary policy shocks developed by Bu, Rogers, and Wu (2021) 
+    + Source: [Bu, Rogers, and Wu (2021)](https://drive.google.com/file/d/1hYeeyY9okFhQz6yXmWdzQc7oaJJKYmVg/view)
++ `mps_shocks.csv` – high-frequency Monetary policy shocks developed by [Bauer and Swanson (2023)](https://www.journals.uchicago.edu/doi/10.1086/723574)
+    + Source: [Federal Reserve Bank of San Francisco](https://www.frbsf.org/research-and-insights/data-and-indicators/monetary-policy-surprises/)
++ `UNRATE.csv` – US unemployment, 2000–2023
+   + Source: BLS (2024) - [UNRATE](https://fred.stlouisfed.org/series/UNRATE)  [CIVPART](https://fred.stlouisfed.org/series/CIVPART#)
++ `JTSJOL.csv`  -  US job openings, 2000–2023
+   + Source: BLS (2024) - [JTSJOL](https://fred.stlouisfed.org/series/JTSJOL)
++ `CIVPART.csv`- US labor force participation rate, 2000–2023
+   + Source: BLS (2024) - [CIVPART](https://fred.stlouisfed.org/series/CIVPART#)
 
 
 ## Code
