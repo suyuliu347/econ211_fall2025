@@ -30,10 +30,15 @@ The raw data used by the code to produce the results in the paper are stored as 
 
 The results in the paper are obtained using Stata and R. The code is located in the `code` folder.
 
+### Main script
+`main.do` organizes the code:
+
 + Cleans OLI demand and supply data (daily → monthly) `clean oli data.r`
 + Processes BRW and HFI monetary policy shocks `clean shocks.r`
 + Merges OLI and monetary policy series into a single dataset `merge.r`
 + Produces all regressions `baseline_regressions.do`
++ The script generates each figure in a figure window and saves the figures as PDF files. 
+
 
 ### Generates figures used in the paper
 
